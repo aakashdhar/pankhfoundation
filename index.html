@@ -2,6 +2,7 @@
 <html lang="en" class="no-js">
 <head>
 	<meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>PankhFoundation</title>
 	<!-- vendor css -->
 	<link rel="stylesheet" type="text/stylesheet" href="css/bootstrap.css">
@@ -30,36 +31,106 @@
         <nav>
             <ul>
                 <li><a href="#approach">Approach</a></li>
-                <li><a href="#model">Right To Know </a></li>        
+                <li><a href="#rights">Right To Know </a></li>        
                 <li><a href="#intervention">Our Intervention</a></li>
-                <li><a href="#impact">Reach</a></li>
             </ul>   
         </nav> 
         <section id="approach" class="section-approach">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                  <img src="images/approach/1.png" alt="...">
+            <div class="container center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="approach-slider">
+                            <p>
+                                <img src="images/approach/1.png" alt="" class="">
+                            </p>
+                            <p class="mentor">
+                                <a href="#" data-toggle="modal" data-target="#mentoring-work" class="fancy-button button-line button-white  button-place">Why mentoring works</a>
+                                <a href="#" data-toggle="modal" data-target="#quality-mentor" class="fancy-button button-line button-white button-place-second">Ensuring Quality Mentoring</a>
+                                <img src="images/approach/2.png" alt="" class="">
+                            </p>
+                            <p>
+                                <img src="images/approach/3.png" alt="" class="">
+                            </p>
+                            <p>
+                                <img src="images/approach/4.png" alt="" class="">
+                            </p>
+                            <p>
+                                <img src="images/approach/5.png" alt="" class="">
+                            </p>
+                            <p>
+                                <img src="images/approach/6.png" alt="" class="">
+                            </p>
+                        </div>
+                        <div id="bx-pager" class="approach-thumbnail">
+                            <a data-slide-index="0" href="" class="photo-hold">
+                                <span class="photo-bg">
+                                    <img src="http://placehold.it/50x50" alt="" /> <!-- Client photo 1 -->
+                                </span>
+                            </a>
+                            <a data-slide-index="1" href="" class="photo-hold">
+                                <span class="photo-bg">
+                                    <img src="http://placehold.it/50x50" alt="" /> <!-- Client photo 1 -->
+                                </span>
+                            </a>
+                            <a data-slide-index="2" href="" class="photo-hold">
+                                <span class="photo-bg">
+                                    <img src="http://placehold.it/50x50" alt="" /> <!-- Client photo 1 -->
+                                </span>
+                            </a>
+                            <a data-slide-index="3" href="" class="photo-hold">
+                                <span class="photo-bg">
+                                    <img src="http://placehold.it/50x50" alt="" /> <!-- Client photo 1 -->
+                                </span>
+                            </a>
+                            <a data-slide-index="4" href="" class="photo-hold">
+                                <span class="photo-bg">
+                                    <img src="http://placehold.it/50x50" alt="" /> <!-- Client photo 1 -->
+                                </span>
+                            </a>
+                            <a data-slide-index="5" href="" class="photo-hold">
+                                <span class="photo-bg">
+                                    <img src="http://placehold.it/50x50" alt="" /> <!-- Client photo 1 -->
+                                </span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="item">
-                  <img src="images/approach/2.png" alt="...">
-                </div>
-                 <div class="item">
-                  <img src="images/approach/3.png" alt="...">
-                </div>
-                <div class="item">
-                  <img src="images/approach/4.png" alt="...">
-                </div>
-                <div class="item">
-                  <img src="images/approach/5.png" alt="...">
-                </div>
-                <div class="item">
-                  <img src="images/approach/6.png" alt="...">
-                </div>           
-              </div>
             </div>
         </section>
+        <section id="rights" class="section-rights">
+                <div class="row">
+                    <h1 class="underline center">About Child <span class="highlight-header-color">rights</span></h1>
+                </div>
+            <div class="container bg-color">
+                <div class="col-md-6">
+                    <article class="">
+                       <p class="margin-bottom-custom">According to the United Nations Convention on the Rights of the Children that India ratified in 1992 - all children are born with fundamental rights.</p> 
+                        <ul>
+                            <li>Right to Survival - to life, health, nutrition, name, nationality</li>
+                            <li>Right to Development - to education, care, leisure, recreation, cultural activities</li>
+                            <li>Right to Protection - from exploitation, abuse, neglect</li>
+                            <li>Right to Participation - to expression, information, thought, religion</li>
+                        </ul> 
+                        <p class="margin-top-custom">And a right to achieve these dreams. Even though India's children account for more than one-third of its population, their interests have never been given priority. And their rights have been violated every single day.The statistics are grim. What is worse is that very little is known of what it means to be part of such horrific numbers. The task before us is huge and we believe that for real change to happen, every member of our society should take responsibility to change the lives of these children permanently. While the reality in India may be far from ideal, we at Pankh believe that every child has a right to dream.</p>
+                    </article>
+                </div>
+                <div class="col-md-6 back-image">
+                    <!-- <figure class="has-light-mask m-b-0 image-effect">
+                        <img src="images/rights.jpg" alt="Article thumbnail" class="img-fluid">
+                    </figure> -->
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
     	<section id="intervention" class="section-intervention">
     		<div class="container">
     		<div class="row">
@@ -701,6 +772,42 @@
 			</div>
 		</div>
 	</footer>
+    <div class="modal fade" id="mentoring-work" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+              <div class="modal-body member-info">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="description approach-image">
+                            <img src="images/approach/mentorshipReason.jpg" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="quality-mentor" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+              <div class="modal-body member-info">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="description approach-image">
+                            <img src="images/approach/mentorshipReason-2.jpg" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
 	<!-- scripts -->
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
@@ -710,7 +817,9 @@
 	<script type="text/javascript" src="js/jquery.cbpNTAccordion.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/waypoints.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 	<script type="text/javascript" src="js/pankh.js"></script>
 	<script>
 		$( function() {        

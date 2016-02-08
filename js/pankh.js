@@ -37,3 +37,25 @@ $(document).ready(function() {
     });
     $(window).scrollTop($(window).scrollTop() + 1);
 });
+$(document).ready(function() {
+    'use strict';
+    $('.approach-slider').bxSlider({
+        pagerCustom: '#bx-pager',
+        pager: true,
+        touchEnabled: true,
+        controls: false
+    }); 
+});
+$(document).ready(function() { 
+    'use strict';
+    $("html").niceScroll({
+        cursorcolor: '#fff',
+        cursoropacitymin: '1',
+        cursorborder: '0px',
+        cursorborderradius: '0px',
+        cursorwidth: '5px',
+        cursorminheight: 60,
+        horizrailenabled: false,
+        zindex: 1090
+    });
+});
