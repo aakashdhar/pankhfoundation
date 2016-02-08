@@ -49,11 +49,11 @@ $(document).ready(function() {
 $(document).ready(function() { 
     'use strict';
     $("html").niceScroll({
-        cursorcolor: '#fff',
+        cursorcolor: '#E74C3C',
         cursoropacitymin: '1',
         cursorborder: '0px',
         cursorborderradius: '0px',
-        cursorwidth: '5px',
+        cursorwidth: '7px',
         cursorminheight: 60,
         horizrailenabled: false,
         zindex: 1090

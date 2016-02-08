@@ -112,6 +112,16 @@ header .logo { float:left; margin-left:115px; position: absolute; background:url
 #whatwedo,#whoweare,#finalsection{
   padding: 0;
 }
+/* ================ slider Section ================ */
+.section-slider{
+  padding: 0;
+  position: relative;
+}
+.section-slider .carousel-inner > .item > img {
+    margin-top: 60px;
+    width: 100vw;
+    height: 92vh;
+}
 /* ================ approach Section ================ */
 .section-approach{
 background: -webkit-linear-gradient(left, rgb(1, 0, 1) 0%, rgb(0, 8, 53) 40%, rgb(0, 19, 120) 80%, rgb(1, 18, 107) 100%);
@@ -437,7 +447,7 @@ height: 100vh;
 	font-size: 80px;
 	text-transform: none;
 }
-.carousel-inner > .item > img{
+.section-volunteer .carousel-inner > .item > img{
 	width: 100vw;
 	height: 400px;
 }
