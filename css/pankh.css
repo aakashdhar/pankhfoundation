@@ -191,6 +191,9 @@ height: 100vh;
   height: 90vh;
 }
 /* ================ rights Section ================ */
+.section-rights{
+  background-color: #f0e68c;
+}
 .section-rights .margin-bottom-custom{
   margin-bottom: 20px;
 }
@@ -510,7 +513,7 @@ height: 100vh;
 }
 /* ================ testimonial Section ================ */
 .section-testimonial{
-  background-color: #;
+  background-color: #8b7355;
 }
 .cbp-qtrotator {
   position: relative;
