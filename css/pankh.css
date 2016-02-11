@@ -401,6 +401,10 @@ height: 100vh;
 
 
 /* ================ faq Section ================ */
+.section-faq{
+  background-color: #060a36;
+  color: #adffe3;
+}
 .section-faq h1{
 	color:  #f4f4f4;
 }
@@ -505,6 +509,9 @@ height: 100vh;
     background-color: #fff;
 }
 /* ================ testimonial Section ================ */
+.section-testimonial{
+  background-color: #;
+}
 .cbp-qtrotator {
   position: relative;
   margin: 1em auto 2em;
@@ -596,17 +603,18 @@ height: 100vh;
 }
 /* ================ donate Section ================ */
 .section-donate{
-	padding: 150px 0 60px
+	padding: 150px 0 60px;
+  background-color:#878686;
 }
 .section-donate h2{
 	font-weight: 300;
     margin-bottom: 0;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
-    color: 	#f4f4f4;
+    color: 	#000;
 }
 .section-donate h2 b {
-    color: #fbd647;
+    color: #9a162c;
     font-weight: 700;
 }
 /* ================ contact Section ================ */
@@ -710,13 +718,13 @@ height: 100vh;
 
 /* ================ footer Section ================ */
 .footer{
-	background-color: #d4ba55;
+	background-color: #cdcd00;
 	font-weight: 500;
 	width: 100%;
 	height: 410px;
 }
 .footer p {
-  color: #8b4513;
+  color: #540505;
   font-size: 17px;
 }
 .footer li {
