@@ -122,38 +122,6 @@ header .logo { float:left; margin-left:115px; position: absolute; background:url
     width: 100vw;
     height: 92vh;
 }
-.section-slider .slider-text-2{
-  position: absolute;
-  top: 16%;
-  left: 2%;
-  font-size: 40px;
-  font-weight: 700;
-  text-transform:uppercase; 
-  background-color: rgba(255, 140, 105, 0.7);
-  padding: 20px;
-}
-.section-slider .slider-text-2 span{
-  color: #000;
-  border-bottom: dotted; 
-}
-.section-slider .slider-text-4{
-  position: absolute;
-  top: 20%;
-  left: 45%;
-  font-size: 40px;
-  font-weight: 700;
-  text-transform:capitalize; 
-  background-color: rgba(238, 127, 63, 0.87);
-  padding-top: 60px;
-  padding-left: 5px;
-  height: 260px;
-  text-align: center;
-}
-.section-slider .slider-text-4 span{
-  color: #000;
-  border-bottom: dotted;
-  text-transform: uppercase;
-}
 /* ================ approach Section ================ */
 .section-approach{
 background: -webkit-linear-gradient(left, rgb(1, 0, 1) 0%, rgb(0, 8, 53) 40%, rgb(0, 19, 120) 80%, rgb(1, 18, 107) 100%);
