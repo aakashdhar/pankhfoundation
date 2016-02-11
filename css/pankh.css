@@ -280,6 +280,9 @@ height: 100vh;
   word-spacing: 1px;
 }
 /* ================ about Section ================ */
+.section-about{
+  background-color: #cdcd00;
+}
 .section-about p{
 	background-color: rgba(0,0,0,0.2);
 	padding: 10px 15px;
@@ -321,6 +324,10 @@ height: 100vh;
 	color: #d4ba55;
 }
 /* ================ mission Section ================ */
+.section-mission{
+  background-color: #060a36; 
+  color: #f1e8e8;
+}
 .section-mission h1{
 	color:  #f4f4f4;
 }
