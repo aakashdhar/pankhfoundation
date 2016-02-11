@@ -105,7 +105,15 @@ header nav a:focus{
 }
 header nav a.logo {   float:left; margin-top:10px; background:url(../images/logo.png) no-repeat; width:164px; height:111px; text-indent:-9999px; background-position: 0px 0px;  }
 header .logo { float:left; margin-left:115px; position: absolute; background:url(../images/logo.png) no-repeat; width:197px; height:96px; text-indent:-9999px; background-position: 0px 0px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;  }
-#whatwedo nav   { z-index:101; background:rgba(251, 255, 247, 0.74);}
+#whatwedo nav   { z-index:101; background:#f5deb3;}
+#whatwedo nav a:hover,
+#whatwedo nav a:active{
+  color: #ee9a00;
+}
+#whatwedo nav a:focus{
+  color: #ee9a00;
+}
+
 #whoweare nav   {  z-index:100; background:#1EB8B5;}
 #finalsection nav {  z-index:102; background:#fff;}
 .freeze { position:fixed; top:70px !important; }
@@ -326,6 +334,9 @@ height: 100vh;
 	word-spacing: 1px;
 }
 /* ================ team Section ================ */
+.section-team{
+  background-color: #8b4c39;
+}
 .team-member {
     margin-bottom: 50px;
     text-align: center;
