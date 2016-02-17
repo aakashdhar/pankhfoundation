@@ -194,6 +194,33 @@ height: 100vh;
   border-color: #FDD701;
   color: #FA4E03;
 }
+.approach-slider .button-place-one{
+  position: absolute;
+  left: 34%;
+  top: 81%;
+  border-color: transparent;
+  border-bottom-color: #FA4E03;
+  color: #FDD701;
+  transition: .7s ease;
+}
+.approach-slider .button-place-two{
+  position: absolute;
+  left: 45%;
+  top: 81%;
+  border-color: transparent;
+  border-bottom-color: #FA4E03;
+  color: #FDD701;
+  transition: .7s ease;
+}
+.approach-slider .button-place-three{
+  position: absolute;
+  left: 56%;
+  top: 81%;
+  border-color: transparent;
+  border-bottom-color: #FA4E03;
+  color: #FDD701;
+  transition: .7s ease;
+}
 .modal-body .approach-image img{
   width: 100%;
   height: 90vh;
@@ -910,5 +937,4 @@ height: 100vh;
  	color: #333339;
   	font-weight: 300;
 }
-body, a:hover {cursor: url(http://www.snazzyspace.com/cursorsfolder/dove.png), progress !important;} 
 
