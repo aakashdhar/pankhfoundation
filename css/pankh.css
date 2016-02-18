@@ -130,6 +130,82 @@ header .logo { float:left; margin-left:115px; position: absolute; background:url
     width: 100vw;
     height: 92vh;
 }
+.section-slider .first-image-text-top{
+  position: absolute;
+  top: 8%;
+  left:5%;
+  font-size: 45px;
+  font-weight: 700;
+  color: yellow;
+}
+.section-slider .first-image-text-bottom{
+  position: absolute;
+  top: 70%;
+  left:40%;
+  font-size: 37px;
+  font-weight: 700;
+  color: yellow;
+}
+.section-slider .second-image-text-top{
+  position: absolute;
+  top: 8%;
+  left:38%;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #fff;
+  text-shadow: 4px 0 0 #7E0607,-4px 0 0 #7E0607,0 4px 0 #7E0607,0 -4px 0 #7E0607,3px 3px #7E0607,-3px -3px 0 #7E0607, 3px -3px 0 #7E0607, -3px 3px 0 #7E0607;
+}
+.section-slider .second-image-text-bottom{
+  position: absolute;
+  top: 70%;
+  left:50%;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #fff;
+  text-shadow: 4px 0 0 #7E0607,-4px 0 0 #7E0607,0 4px 0 #7E0607,0 -4px 0 #7E0607,3px 3px #7E0607,-3px -3px 0 #7E0607, 3px -3px 0 #7E0607, -3px 3px 0 #7E0607;
+}
+.section-slider .third-image-text-top{
+  position: absolute;
+  top: 8%;
+  left:2%;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #000;
+  text-shadow: 2px 0 0 #E34B31,-2px 0 0 #E34B31,0 2px 0 #E34B31,0 -2px 0 #E34B31,1px 1px #E34B31,-1px -1px 0 #E34B31, 1px -1px 0 #E34B31, -1px 1px 0 #E34B31;
+}
+.section-slider .third-image-text-bottom{
+  position: absolute;
+  top: 82%;
+  left:58%;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #000;
+  text-shadow: 2px 0 0 #E34B31,-2px 0 0 #E34B31,0 2px 0 #E34B31,0 -2px 0 #E34B31,1px 1px #E34B31,-1px -1px 0 #E34B31, 1px -1px 0 #E34B31, -1px 1px 0 #E34B31;
+}
+.section-slider .fourth-image-text-top{
+  position: absolute;
+  top: 72%;
+  left:55%;
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 4px 0 0 #0E2CF5,-4px 0 0 #0E2CF5,0 4px 0 #0E2CF5,0 -4px 0 #0E2CF5,3px 3px #0E2CF5,-3px -3px 0 #0E2CF5, 3px -3px 0 #0E2CF5, -3px 3px 0 #0E2CF5;
+}
+.section-slider .fourth-image-text-bottom{
+  position: absolute;
+  top: 80%;
+  left:63%;
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 4px 0 0 #0E2CF5,-4px 0 0 #0E2CF5,0 4px 0 #0E2CF5,0 -4px 0 #0E2CF5,3px 3px #0E2CF5,-3px -3px 0 #0E2CF5, 3px -3px 0 #0E2CF5, -3px 3px 0 #0E2CF5;
+}
 /* ================ approach Section ================ */
 .section-approach{
 background: -webkit-linear-gradient(left, rgb(1, 0, 1) 0%, rgb(0, 8, 53) 40%, rgb(0, 19, 120) 80%, rgb(1, 18, 107) 100%);
@@ -175,10 +251,13 @@ height: 100vh;
   transition: .7s ease; 
 }
 .approach-slider .button-place:hover,
-.approach-slider .button-place:active{
+.approach-slider .button-place:active,
+.approach-slider .button-place:focus{
   background-color: #FDD701;
   border-color: #FDD701;
   color: #FA4E03;
+  text-decoration: none;
+  outline: none;
 }
 .approach-slider .button-place-second{
   position: absolute;
@@ -189,37 +268,64 @@ height: 100vh;
   transition: .7s ease; 
 }
 .approach-slider .button-place-second:hover,
-.approach-slider .button-place-second:active{
+.approach-slider .button-place-second:active,
+.approach-slider .button-place-second:focus{
   background-color: #FDD701;
   border-color: #FDD701;
   color: #FA4E03;
+  text-decoration: none;
+  outline: none;
 }
 .approach-slider .button-place-one{
   position: absolute;
   left: 34%;
   top: 81%;
-  border-color: transparent;
-  border-bottom-color: #FA4E03;
+  border-color: #FA4E03;
   color: #FDD701;
   transition: .7s ease;
+}
+.approach-slider .button-place-one:hover,
+.approach-slider .button-place-one:active,
+.approach-slider .button-place-one:focus{
+  background-color: #FDD701;
+  border-color: #FDD701;
+  color: #FA4E03;
+  text-decoration: none;
+  outline: none;
 }
 .approach-slider .button-place-two{
   position: absolute;
   left: 45%;
   top: 81%;
-  border-color: transparent;
-  border-bottom-color: #FA4E03;
+  border-color: #FA4E03;
   color: #FDD701;
   transition: .7s ease;
+}
+.approach-slider .button-place-two:hover,
+.approach-slider .button-place-two:active,
+.approach-slider .button-place-two:focus{
+  background-color: #FDD701;
+  border-color: #FDD701;
+  color: #FA4E03;
+  text-decoration: none;
+  outline: none;
 }
 .approach-slider .button-place-three{
   position: absolute;
   left: 56%;
   top: 81%;
-  border-color: transparent;
-  border-bottom-color: #FA4E03;
+  border-color: #FA4E03;
   color: #FDD701;
   transition: .7s ease;
+}
+.approach-slider .button-place-three:hover,
+.approach-slider .button-place-three:active,
+.approach-slider .button-place-three:focus{
+  background-color: #FDD701;
+  border-color: #FDD701;
+  color: #FA4E03;
+  text-decoration: none;
+  outline: none;
 }
 .modal-body .approach-image img{
   width: 100%;
@@ -227,7 +333,7 @@ height: 100vh;
 }
 /* ================ rights Section ================ */
 .section-rights{
-  background-color: #4d4d4d;
+  background-color: rgba(0,0,0,0.8);
 }
 .section-rights .margin-bottom-custom{
   margin-bottom: 20px;
@@ -262,7 +368,7 @@ height: 100vh;
     transform: scale3d(1, 1, 1)
 }
 .bg-color{
-  background-color: rgba(0,0,0,0.6);
+  /*background-color: rgba(0,0,0,0.6);*/
   padding: 20px;
 }
 /* ================ intervention Section ================ */
