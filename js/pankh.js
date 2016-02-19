@@ -36,6 +36,15 @@ $(document).ready(function() {
         });
     });
     $(window).scrollTop($(window).scrollTop() + 1);
+
+    wow = new WOW({
+            mobile: false
+        });
+        wow.init();
+
+    $('.carousel').carousel({
+        interval: 2500
+    })
 });
 $(document).ready(function() {
     'use strict';
