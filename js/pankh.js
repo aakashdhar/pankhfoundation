@@ -40,7 +40,7 @@ $(document).ready(function() {
         wow.init();
 
     $('.carousel').carousel({
-        interval: 2800
+        interval: 4000
     })
 });
 $(document).ready(function() {
