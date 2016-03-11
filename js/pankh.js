@@ -2,18 +2,15 @@
 $(document).ready(function() {
 	var map = new GMaps({
 		  div: '.map',
-		  lat: 28.4447562,
-		  lng: 77.1425387,
+		  lat: 26.846766,
+		  lng: 80.9111464,
 		  zoom: 12
 		});
 
 		map.addMarker({
-	  	lat: 28.4447562,
-	  	lng: 77.1425387,
+	  	lat: 26.846766,
+        lng: 80.9111464,
 	  	title: 'Pankh Foundation',
-	  	infoWindow: {
-	  	content: '<p>Pankh foundation office</p>'
-		}
 	});
 	$('a[href*=#]').bind("click", function(e){
            
